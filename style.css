@@ -348,6 +348,9 @@ img{
     width: 100%;
     height: 28px;
 }
+.reserve form input:hover{
+    cursor: pointer;
+}
 .radio{
     margin: 10px 0;
 }
@@ -516,6 +519,9 @@ img{
     width: 75%;
     height: 25px;
 }
+.input:hover{
+    cursor: pointer;
+}
 .btn{
     padding: 20px 0;
     text-align: center;
@@ -529,9 +535,13 @@ img{
     color: #ffffff;
     border-radius: 5px;
 }
+
 .login-inform a{
     text-decoration: none;
     color: #F56C23;
+}
+.login-inform a:hover{
+    color: #ff8543;
 }
 .register-btn{
     background: rgba(0, 0, 0, .35);
